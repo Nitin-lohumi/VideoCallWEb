@@ -25,9 +25,6 @@ const Room =()=>{
    }
    return (
     <>
-   <h1>
-        welcome {roomId}  
-    </h1>
     <div className="meeting">
         <div className="meet" ref={myMeeting}/>
     </div>
