@@ -19,7 +19,10 @@ const Room =()=>{
         lowerLeftNotification:{
             showUserJoinAndLeave:true
         },
-        showScreenSharingButton:true,
+        screenSharingConfig:{
+            height:10,
+            width:10
+        },
         backgroundUrl:"black"
     })
    }
